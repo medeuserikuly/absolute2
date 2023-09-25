@@ -1,0 +1,47 @@
+@import 'fonts'; 
+
+* {
+    font-family: 'Roboto';
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    caret-color: transparent;
+}
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    &-imgs {
+        max-width: 1440px;
+    }
+    @media (max-width: 576px) {
+        padding: 0 20px;
+    }
+}
+
+
+
+@import 'header';
+@import 'imgs';
+@import 'partners';
+@import 'footer';
+@import 'whatsapp';
+@import 'accordion';
+
+
+
+@import 'media/mediaHeader';
+@import 'media/mediaImgs';
+@import 'media/mediaPartners';
+@import 'media/mediaFooter';
+@import 'media/mediaWhatsapp';
+@import 'media/mediaAccordion';
+
+
+ 

@@ -1,0 +1,52 @@
+@media (max-width: 576px) {
+    .accordion {
+        // .accordion__items
+        &__items {
+            grid-template-columns: repeat(auto-fill, minmax(180px, 100%));
+        }
+    
+        &__heading {
+            width: 100%;
+            font-size: 16px;
+            &:after {
+                right: 15px;
+            }
+        }
+    
+        .panel {
+            font-size: 14px;
+        }
+    }
+
+    .btn {
+        width: 100%;
+        font-size: 16px;
+
+        &__mobile {
+            display: block;
+
+            &-instagram {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 7px;
+                font-weight: 700;
+                color: #fff;
+            }
+
+            &-phone {
+                color: #69bf67;
+                border: 1px solid #69bf67;
+            }
+
+            &-whatsapp {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 7px;
+                background-color: #69bf67;
+
+            }
+        }
+    }
+}

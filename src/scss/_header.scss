@@ -1,0 +1,21 @@
+.header {
+    padding: 20px 0;
+    background: url('@img/bg.webp') center center/cover no-repeat;
+    min-height: 235px;
+    // .header__cities
+    &__cities {
+        font-size: 12px;
+        text-align: center;
+        color: #fff;
+    }
+    // .header__logo
+    &__logo {
+        display: block;
+        margin: 0 auto;
+        margin-top: 30px;
+        width: 220px;
+    }
+    &__mobile {
+        display: none;
+    }
+}

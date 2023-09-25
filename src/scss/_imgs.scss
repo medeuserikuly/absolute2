@@ -1,0 +1,35 @@
+.imgs {
+    padding: 15px 0;
+    &__title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 24px;
+    }
+    &__text {
+        margin-top: 5px;
+        margin-bottom: 15px;
+        text-align: center;
+        font-size: 18px;
+    }
+    // .imgs__wrapper
+    &__wrapper {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 14px;
+        div {
+            max-width: 145px;
+            max-height: 145px;
+            img {
+                width: 100%;
+                height: 100%;
+                // object-fit: fill;
+            }
+        }
+    }
+
+    // .imgs__item
+    // &__item {
+    //     max-width: 145px;
+    // }
+}

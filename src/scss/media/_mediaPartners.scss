@@ -1,0 +1,37 @@
+@media (max-width: 576px) {
+    .partners {
+        margin-top: -1px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: #161e31;
+        // .partners__block
+        &__block {
+            padding: 30px 20px;
+            background-color: #fff;
+            border-radius: 10px;
+        }
+
+        // .partners__title
+        &__title {
+            text-align: center;
+            font-size: 20px;
+        }
+
+        // .partners__subtitle
+        &__subtitle {
+            text-align: center;
+            font-size: 14px;
+        }
+
+        // .partners__wrapper
+        &__wrapper {
+            grid-template-columns: repeat(2, 150px);
+        }
+
+        // .partners__img
+        &__img {
+            width: 120px;
+        }
+    }
+
+}
