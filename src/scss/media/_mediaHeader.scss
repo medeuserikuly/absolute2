@@ -1,42 +1,11 @@
 @media (max-width: 576px) {
     .header {
         padding: 35px 0 15px 0;
-
-        // .header__cities
-        // &__cities {
-        //     // display: none;
-        // }
-
         // .header__logo
         &__logo {
             margin-top: 45px;
             width: 180px;
         }
-
-        // .header__mobile
-        // &__mobile {
-        //     padding: 10px;
-        //     display: block;
-        //     background-color: #fff;
-        //     border-radius: 10px;
-        //     max-width: 305px;
-        //     margin: 0 auto;
-
-        //     // .header__mobile_cities
-        //     &_cities {
-        //         text-align: center;
-        //         font-size: 12px;
-        //         margin: 15px 0;
-        //     }
-
-        //     // .header__mobile_img
-        //     &_img {
-        //         display: block;
-        //         max-width: 285px;
-        //         margin: 0 auto;
-        //         margin-top: 10px;
-        //     }
-        // }
     }
 
 }
