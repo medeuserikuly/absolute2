@@ -10,6 +10,6 @@ window.addEventListener("DOMContentLoaded", () => {
 
     const whatsapp = document.querySelector('.pulse-button');
     whatsapp.addEventListener('click', () => {
-        open("https://wa.me/77057759919");
+        open("https://wa.me/77064080686");
     });
 });

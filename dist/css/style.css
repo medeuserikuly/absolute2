@@ -48,9 +48,11 @@ ul {
   max-width: 1440px;
 }
 
+.no-webp .header {
+  background: url("../img/bg.png") center center/cover no-repeat; }
+
 .header {
   padding: 20px 0;
-  background: url("../img/bg.webp") center center/cover no-repeat;
   min-height: 235px;
 }
 
@@ -432,6 +434,10 @@ ul {
     height: 60px;
   }
 
+  .pulse-button__text {
+    font-size: 9px;
+  }
+
   .accordion__items {
     grid-template-columns: repeat(auto-fill, minmax(180px, 100%));
   }
@@ -480,3 +486,5 @@ ul {
     background-color: #69bf67;
   }
 }
+
+.webp .header { background: url(../img/bg.webp) center center/cover no-repeat; }
